@@ -1,0 +1,289 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hii", 
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which branches do you have?",
+        "What courses do you offer?",
+        "courses offered"
+      ],
+      "responses": [
+        "We offer Engineering in:  \n1. Computer Science\n2. Information Technology\n3. Civil Engineering\n4. Mechanical Engineering\n5. Electrical Engineering\n6. Electronics and Electrical Engineering."
+      ]
+    },
+    {
+      "tag": "availibility",
+      "patterns": [
+        "Is Computer Science Branch available there?",
+        "Do you have Information Technology branch?"
+      ],
+      "responses": [
+        "Yes, we have that branch available."
+      ]
+    },
+    {
+      "tag": "Placement",
+      "patterns": [
+        "What are your placement stats?",
+        "what is your highest placement?",
+        "how much is your placement percentage?",
+        "what is your placement percentage",
+        "Placement stats",
+        "highest placement",
+        "placement percentage"
+      ],
+      "responses": [
+        "We are one of the leading colleges of jaipur in terms of Placements with 90% placement percentage haivng highest placement of 44 lakh offered by one of the FAANG company Amazon. Average placement of our college is 6-6.5 Lakh."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the college located?","The adress of the college?","The location of college?","where is campus","Address of campus"
+      ],
+      "responses": [
+        "The college is located at Shri Ram ki Nangal via RIICO, Tonk Rd, Sitapura, Jaipur, Rajasthan 302022."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What are the faclities available?","Is facility available?","Facilities available"
+      ],
+      "responses": [
+        "The facilities available are:\nAcademics Facilities\nI.T. Facilities\nLibrary Facilities\nSports Facilities\nHostel Facilities\nMedical Facilities\nTransport Facilities\nCafeteria\nCampus tour Facility"
+      ]
+    },
+    {
+      "tag": "policies",
+      "patterns": [
+        "What are the policies there?","Policies","Available Policies?","policy"
+      ],
+      "responses": [
+        "For information on policies refer to the pdf: https://jecrcfoundation.com/pdf/Policy%20Booklet.pdf"
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "what are internship opportunities?","Internship opportunities","Internship availibility","Internships"
+      ],
+      "responses": [
+        "Our On campus Internship Partners: \nInternshala\nTechieNest\nJECRC Training and Placement Department\nRed hat\nCADD Centre\nRajapark\nForsk Technologies\nBABA Automobile\nCyberops\nSambodhi Tech Solution"
+      ]
+    },
+    {
+      "tag": "Event",
+      "patterns": [
+        "what are the main event of your college","events"
+      ],
+      "responses": [
+        "we have a Annual event RENAISSAINCE which is a 3 day event celebrrated with full excitement."
+      ]
+    },
+    {
+      "tag": "Fees",
+      "patterns": [
+        "Fee structure of the college","fee structure"
+      ],
+      "responses": [
+        "We have a nominal fee structure as per guidlines of RTU, for details fee structure refer to: https://jecrcfoundation.com/assets/img/Fee-Structure-2020-21.png"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "about college","about","college info"
+      ],
+      "responses": [
+        "Jaipur Engineering College and Research Centre is a Private College located in Jaipur, Rajasthan. This college was established in 2000 and is affiliated to Rajasthan Technical University, Kota. JECRC is a NAAC Accredited College. At present, JECRC, Jaipur offers B.Tech and B.Tech Lateral Entry program at the UG level."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "clubs present","clubs in college"
+      ],
+      "responses": [
+        "In JECRC we have a variety of social, cultural and technical clubs doing geeat work with a large community of group members.Some clubs are:\nTechnical Clubs: Xananoids, Stargent.\nSocial Clubs are: Suhasini, Soch, Zarurat, Aashayein.\nCultural Clubs: Salsa, Face and Footlights.\nArts Club: Atrangi, PhotoFreaks."
+      ]
+    },
+    {
+      "tag": "about Bot",
+      "patterns": [
+        "what can you do for me","what task can you perform?", "what can you do?"
+      ],
+      "responses": [
+        "I can answer your FAQs related to the college"
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "what are the activites performed in the college?","activites performed", "activites in college"
+      ],
+      "responses": [
+        "College organizes a number of activities including Hackathons, Coding compititions, Google cloud source, Blood donation camps, club events etc. "
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "ranking of college","college rank","college rating"
+      ],
+      "responses": [
+        "JECRC is: \n1. Ranked 106 for B.Tech by Indiatoday 2020.\n2. Ranked 83 for B.Tech by Outlook 2019.\n3. Ranked 101 for B.Tech by The Week 2020.\nALso JECRC is ranked 1st among the colleges under RTU."
+      ]
+    },
+    {
+      "tag": "bus",
+      "patterns": [
+        "is bus service available?","bus service","bus available"
+      ],
+      "responses": [
+        "We provide bus pickup and drop facilities covering a large portion of the city"
+      ]
+    },
+    {
+      "tag": "chairperson",
+      "patterns": [
+        "Who is the chairperson of the college","chairperson","director of the college","director","founder","founder of the college"
+      ],
+      "responses": [
+        "Dr.Arpit Agarwal is the Director and the Chairperson of the college."
+      ]
+    },
+    {
+      "tag": "Principal",
+      "patterns": [
+        "Who is the Principal of the college","principal of college"
+      ],
+      "responses": [
+        "Dr. V.K. Chandna is the Principal of the college."
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": [
+        "campus area","about campus"
+      ],
+      "responses": [
+        "A green environment friendly campus covering a decent area having four blocks, sports ground, temple, cafeteria space, parking lot etc."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel life","hostel facility","is hostel facility available"
+      ],
+      "responses": [
+        "Our college has 1 Girls and 2 Boys hostel having 2 sharing as well as 3 sharing rooms. The 3 seater hostel has a combined washroom whereas the 2- seater one has one common washroom for around 12-14 rooms. The quality of the mess food is decent."
+      ]
+    },
+    {
+      "tag": "placement partners",
+      "patterns": [
+        "placement companies","placement partners","placement opportunity","placement offers","Recruiters"
+      ],
+      "responses": [
+        "our College has tie ups with more than 100 comapnies for placement of our students.Some of our recruiters are: \nAmazon, \nZS Associate, \nHP, \nAccenture, \nInfosys, \nTCS, \nBilldesk, \nBYJUS, \nCapegimini,and so on..."
+      ]
+    },
+    {
+      "tag": "Vision and Mission",
+      "patterns": [
+        "vision and mission","what are the vision and mission of the college"
+      ],
+      "responses": [
+        "Vision-Vision To become a renowned centre of outcome based learning, and work towards academic, professional, cultural and social enrichment of the lives of individuals and communities.\n Mission-\n 1.Focus on evaluation of learning outcomes and motivate students to inculcate research aptitude by project based learning.\n2.Identify, based on informed perception of Indian, regional and global needs, areas of focus and provide platform to gain knowledge and solutions.\n3.Offer opportunities for interaction between academia and industry.\n4.Develop human potential to its fullest extent so that intellectually capable and imaginatively gifted leaders can emerge in a range of professions."
+      ]
+    },
+    {
+      "tag": "students",
+      "patterns": [
+        "number of students","total students in college","number of students in college","how may students"
+      ],
+      "responses": [
+        "We have nearly 3000 students pursuing Undergradate Degree at present."
+      ]
+    },
+    {
+      "tag": "faculties",
+      "patterns": [
+        "number of faculties","faculty","number of teachers","total number of teacher"
+      ],
+      "responses": [
+        "We have a community of nearly 100 faculties with a good experience in there domain."
+      ]
+    },
+    {
+      "tag": "ratio",
+      "patterns": [
+        "student to faculty ratio","faculty to student ratio"
+      ],
+      "responses": [
+        "We have a decent ratio of faculty to student 30:1."
+      ]
+    },
+    {
+      "tag": "sex ratio",
+      "patterns": [
+        "sex ratio"
+      ],
+      "responses": [
+        "Sex ratio of boys to girls in college is: 5:1."
+      ]
+    },
+    {
+      "tag": "seats",
+      "patterns": [
+        "seat matrix in college","seats in each branch","seats in college","seats","seat matrix"
+      ],
+      "responses": [
+        "In our college we have:\n1. CS(280 seats), \n2. IT(180 seats), \n3. AI&DS(120 seats), \n4. CE(120 seats), \n5. ME(120 seats), \n6. ECE(180 seats), \n7. EE(120 seats)."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact no.","contact number","how can i contact","contact information","contact"
+      ],
+      "responses": [
+        "For any queries related to admission any any other info you can contact us at: 0141 2770232, 99283 69263 or you can e-mail us at: info@jecrcmail.com"
+      ]
+    }
+
+
+  ]
+}

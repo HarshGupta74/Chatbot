@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <a href="index.html"><img src="imgJECRC/jecrclogo.png" alt=""></a>
+         <div class="nav-link" id="navlinks">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+             </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>Our University </h1>
+    </section>
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+                    <img src="img/certificate.jpg"> 
+                    <h2>Our University</h2>
+                    <p>A careers and skills advice blog for undergraduates and graduates. Provides great tips and useful information on job applications and interview 
+                        techniques as well as on how to make good career decisions while still studying. This blog is perfect for career advice and more!
+                    </p>   
+                    <br>
+                    <p>Covering important aspects of career development to give you the edge, this blog has articles on preparing your first resume, networking, 
+                        interview and internship tips. It also includes unique and inspiring videos such as “ How to Find a Job When One Doesn’t Yet Exist”.
+                    </p>
+                    <br>
+                    <p>This informative blog features a great selection of topics in the areas of technology, business, health care, and lifestyle. 
+                        Articles range from tips for job interviews and resume writing to unique networking ideas.  Also provides multi-faceted information on 
+                        career opportunities and job market reviews for students and professionals alike.
+                    </p>  
+                    <br>
+                    <p>A college lifestyle blog with helpful articles on careers, business, and education. Provides  a diverse travel and culture section which 
+                        includes recipes and helpful studying abroad tips along with health articles. This blog also features an interesting selection of articles 
+                        on local topics about Vermont farming, skiing, lakes and history and culture.
+                    </p>
+                    <div class="comment-box"> 
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form" action="">
+                               <input type="text" placeholder="Enter name">
+                               <input type="email" placeholder="Enter Email">
+                               <textarea rows="5" placeholder="Your comment">     
+                               </textarea> 
+                               <button type="submit" id="sumbit" class="hero-btn red-btn" onclick="display_alert()">POST COMMENMT</button>
+                        </form>
+                    </div>
+           </div>
+           <div class="blog-right">
+               <h3>Post categories</h3>
+               <div>
+                   <span>Business Analytics</span>
+                   <span>21</span>
+               </div>
+               <div>
+                   <span>Data Science</span>
+                   <span>28</span>
+               </div>
+               <div>
+                   <span>MAcgine Learning</span>
+                   <span>15</span>
+               </div>
+               <div>
+                   <span>Computer science</span>
+                   <span>34</span>
+               </div>
+               <div>
+                   <span>AutoCAD</span>
+                   <span>42</span>
+               </div>
+           </div>
+       </div>
+
+   </section>
+   <div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="./images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+    <script src="./app.js"></script>
+
+   
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our University contact</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/JECRCfoundation" target="_blank"><i class="fab fa-facebook"></i> </a>
+            <a href="https://twitter.com/jecrcuniversity" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/jecrcfoundationofficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/jaipur-engineering-college-and-research-centre-jecrc-/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+         <p>Made By Team Xspark</p>
+    </section>
+    <!---Javascipt for toggle menu--->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0"; 
+        }
+        function hidemenu(){
+            navlinks.style.right = "-210px"; 
+        } 
+    </script>
+    <script>
+        function display_alert()
+        {
+        alert("Thank you for you feedback");
+        }
+     </script>
+</body>
+</html>
